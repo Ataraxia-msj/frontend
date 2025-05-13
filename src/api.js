@@ -1,5 +1,5 @@
 export async function recommend(param, value) {
-  const resp = await fetch('http://localhost:8000/recommend', {
+  const resp = await fetch('https://backend-c8xc.onrender.com', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ input_param: param, input_value: value })
