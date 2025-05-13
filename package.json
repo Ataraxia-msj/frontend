@@ -1,7 +1,8 @@
 {
   "name": "param-recommender",
   "version": "1.0.0",
-  "private": true,
+  "homepage": "https://ataraxia-msj.github.io/frontend",
+
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.3.1",
@@ -10,7 +11,8 @@
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@testing-library/react": "^13.0.0",
