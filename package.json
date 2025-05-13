@@ -2,8 +2,8 @@
   "name": "param-recommender",
   "version": "1.0.0",
   "homepage": "https://ataraxia-msj.github.io/frontend",
-
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1"
